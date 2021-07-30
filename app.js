@@ -1,22 +1,28 @@
 const dialogflow = require('@google-cloud/dialogflow');
 const uuid = require('uuid');
-const express = require('express')
-const bodyParser = require('body-parser')
-const app = express()
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
 const port = 5000;
-
 
 const sessionId = uuid.v4();
 
-app.use(bodyParser.urlencoded({
-  extended: false
-}))
+app.use(
+  bodyParser.urlencoded({
+    extended: false,
+  })
+);
 
 app.use(function (req, res, next) {
-
   res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
-  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+  res.setHeader(
+    'Access-Control-Allow-Methods',
+    'GET, POST, OPTIONS, PUT, PATCH, DELETE'
+  );
+  res.setHeader(
+    'Access-Control-Allow-Headers',
+    'X-Requested-With,content-type'
+  );
   res.setHeader('Access-Control-Allow-Credentials', true);
 
   // Pass to next layer of middleware
@@ -24,13 +30,10 @@ app.use(function (req, res, next) {
 });
 
 app.post('/send-msg', (req, res) => {
-
-  runSample(req.body.MSG)
-    .then(data => {
-      res.send({ Reply: data })
-    })
-
-})
+  runSample(req.body.MSG).then((data) => {
+    res.send({ Reply: data });
+  });
+});
 
 /**
  * Send a query to the dialogflow agent, and return the query result.
@@ -39,12 +42,14 @@ app.post('/send-msg', (req, res) => {
 async function runSample(msg, projectId = 'latdoc-rsie') {
   // A unique identifier for the given session
 
-
   // Create a new session
   const sessionClient = new dialogflow.SessionsClient({
-    keyFilename: "Z:/xampp/htdocs/bisayuh/latdoc-rsie-95d3686aca9c.json"
+    keyFilename: './latdoc-rsie-95d3686aca9c.json',
   });
-  const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
+  const sessionPath = sessionClient.projectAgentSessionPath(
+    projectId,
+    sessionId
+  );
 
   // The text query request.
   const request = {
@@ -74,5 +79,5 @@ async function runSample(msg, projectId = 'latdoc-rsie') {
 }
 
 app.listen(port, () => {
-  console.log('running on port' + port)
-})
+  console.log('running on port' + port);
+});
