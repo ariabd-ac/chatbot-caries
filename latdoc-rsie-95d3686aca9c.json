@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "latdoc-rsie",
+  "private_key_id": "95d3686aca9ca05ae5f5d405e925db7feceeb3e7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDkvzt9zrcfQ33J\n6RIdUShka384pSJlJW69rPmWiYp9PGV4BPCQ2obbActaGB0JOj7AgjmkkKb3gEQI\nVAXjt5ymynJZnzQQjl+9mpLXIDoioAlSrWb9+GLXCJJiOMfA0ETC6Q02b/rnR+7e\nTV7CmAl4G1rIGfm3znAnLp1KAkv6FiiB0y4/Z/gDP9e0JxGyb6g91AKX6i/s/dUh\nKph5k0UPP2IAqhEC+CTCy22Iyyh23/2ec6uEqn9+GoYGkUdbq1kWWXLExpEXLofS\nUsQDf4gwo8onEv+SAFJHWhExhwUf4cpPZdQtaNpeFi7DdK7Y+aNih5RAaCPfQ7pv\nNhul94mRAgMBAAECggEABrjwAKSAkTSkj7h/xcjKzRizpnCD8EEHXh+lPh1QqpmJ\nydsrTrZ9XBZTaZRn1guWKIYrN4Dgx0lHto7xlV2iBuzQK34YQ5xLiADw682Qp8/Y\nNkvOSQxxqywfUS+l/y6ftrKuprjnwMBGbtYLQODC9nqnUlYhFpvEhAJEsRYcMX9C\n+VuWFZk6ZVHJr26ut0jqvaD6jFMCFv9QKLyRv4es5GpjK1edar16tXHfY+2JdT+k\nGSl7YQc4S/IOzBkWrzBJ+vQGjQwsovEUADkiTMhoJ4X4N/NBj+wB2x3eaudL1k9R\nBf9bUBLMDft/LL1Mj1j2qCiLT92oGtY2KISG/2kEoQKBgQD76IzUc++yHW8lfOZd\nhpMjs3jHasoqxhDJ18tYSIfJn2m5X2SN3RCNhukOIYP/pq4X8SUCnZFjQEZvQK9P\nf/WvOzqos7eRmwBGVe6qEUul09k43EXhYcHV95EVseM1qsdBjRfzUMw8OWov/i/w\nYJo6Lcx/3HHuksivvx8hVQ6M/QKBgQDodmA2A+sdavmAV6LHDM6w3M2EX7FgmVCU\nL305zF6h+JHs/FlZXVhg4Ww7AqsyA1rsN1T3ycbKeZgtWSvEP8zm1UVmxGbEDimc\nfqH4ukh+rusIqcZFYCbbENGNEvN2dGsrzr97Y2BBh1tLCLpWLTRYTyeccagOa86l\n1s+IR96dJQKBgQC5ZlxP+MwPQU6OPrClYOhmPC7GRjho5sFwbJxCa49Uuzjqr+Sn\n7G3EW+im98/YlmpHQLnGhQV+EM5GD0t3rWu6/lKb2zldtsCrA4/WJ0iP0a1sBeKA\nkJxCyCRF3VimJPzlp9xavbqzEGawz9mkhtS7wP1jlXFc7zc48ecNdzZwWQKBgCzK\nwncmAiPE/RZxzHe2TA1gPmmHVtJaOGCVVffRHVrwXo3fggfqKKFiTkyAkyQr6VUi\nxEiKpLdW/q+eQwSpln3UEm9e4L5eTD5PWD5pBpcCdV9R91Ze1J3Ze8dHI4prnErw\np4zK9T0rK7glkmIQi8mIVwWaENvWghcKcSq9TnPRAoGBAJcIYhnzf7Jo/9BPBf9i\nAzRapzFCxcfQ4nW57W19kW7QguJ7RoSdwGDwhA7Ekmnp268UcAqZl4y+axBafrJs\nqS7kZTYb13nnZLwIYnVR7g1g8PuDzrctWd1veiD7CZFyGUewtJ1QTlMcU2aWxetK\nj0o/rGNOrhiHo45JkruCVshq\n-----END PRIVATE KEY-----\n",
+  "client_email": "latdocs@latdoc-rsie.iam.gserviceaccount.com",
+  "client_id": "115492242450120913051",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/latdocs%40latdoc-rsie.iam.gserviceaccount.com"
+}
